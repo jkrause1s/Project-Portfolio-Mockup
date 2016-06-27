@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joel Krause's Portfolio</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,100' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <style>
+      @import url("http://weloveiconfonts.com/api/?family=brandico");
+    </style>
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="row title-line">
+        <div class="col-md-6 title-logo">
+          <img class="img-responsive" src="images/storm-1600_large.png" alt="Joel's red lightning bolt logo">
+        </div>
+        <div class="col-md-6 text-right text-uppercase">
+          <h1 class ="title-super text-thin">Joel Krause</h1>
+          <h3>Business Professional</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class ="col-md-12">
+        <figure>
+          <picture>
+            <source
+              media="(min-width:995px)"
+              srcset="images/mountains.jpg">
+            <source
+              media="(min-width:500px)"
+              srcset="images/mountains.jpg">
+            <img src="images/mountains.jpg" class="img-responsive" alt="Picture of a snowy mountain reflected in water">
+          </picture>
+        </figure>
+        </div>
+      </div>
+      <div class="row">
+        <div class ="col-md-12">
+          <h2 class="text-muted">Featured Work</h2>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class ="col-md-4 featured">
+        <picture>
+            <source
+              media="(min-width:700px)"
+              srcset="images/coffee.png">
+            <source
+              media="(max-width:699px)"
+              srcset="images/coffee_thumb.png">
+            <img class="img-responsive" src="images/coffee.png" data-toggle="modal" data-target="#project1" alt="cup of coffee on table">
+          </picture>
+
+          <h3 class="text-uppercase">Coffee</h3>
+          <p><a href="http://github.com">Link to project</a></p>
+        </div>
+        <div class ="col-md-4 featured">
+          <img class="img-responsive" src="images/sunrise.jpg" data-toggle="modal" data-target="#project2" alt="picture of sun shining through clouds over mountains">
+          <h3 class="text-uppercase">Sunrise</h3>
+          <p><a href="http://github.com">Link to project</a></p>
+        </div>
+        <div class="col-md-4 featured">
+          <img class="img-responsive" src="images/files.jpg" data-toggle="modal" data-target="#project3" alt="stack of business files">
+          <h3 class="text-uppercase">Files</h3>
+          <p><a href="http://github.com">Link to project</a></p>
+        </div>
+      </div>
+      <div class="row">
+      <div class="col-md-12">
+        <footer>
+        <ul class="pull-right">
+          <li><a class="brandico-twitter" href="#"></a></li>
+          <li><a class="brandico-github" href="#" title="View source for this page on GitHub" id="viewSource">
+              </a>
+          </li>
+          <li><a class="brandico-facebook-rect" href="#"></a></li>
+          <li><a class="brandico-linkedin-rect" href="#"></a></li>
+          <li><a class="brandico-googleplus-rect" href="#"></a></li>
+
+        </ul>
+      </footer>
+      </div>
+    </div>
+    </div>
+
+<!-- Modal Project 1 -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Coffee</h4>
+          </div>
+          <div class="modal-body">
+            <p>This product was a study of the effects of coffee on the body. The conclusion was that coffee is delicious.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+          </div>
+      </div>
+    </div>
+
+    <!-- Modal Project 2 -->
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Sunrise</h4>
+          </div>
+          <div class="modal-body">
+            <p>This study calculates the time of sunrise any time of the year.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Project 3 -->
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Files</h4>
+          </div>
+          <div class="modal-body">
+            <p>Here is a repository of important business files relating to previous work.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
